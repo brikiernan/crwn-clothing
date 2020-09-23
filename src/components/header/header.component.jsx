@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="header">
       <Link className="logo-container" to="/">
-        <Logo className="logo" />
+        <Logo className="logo" title="CRWN CLT" />
       </Link>
       <div className="options">
         <Link className="option" to="/shop">
