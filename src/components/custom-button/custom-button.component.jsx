@@ -8,7 +8,7 @@ export default function CustomButton({
 }) {
   return (
     <button
-      className={`${isGoogleSignIn ? 'google-sign-in' : ''} custom-button`}
+      className={`${isGoogleSignIn && 'google-sign-in'} custom-button`}
       {...otherProps}
     >
       {children}
